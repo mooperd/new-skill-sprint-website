@@ -9,103 +9,72 @@ sitemap:
 ---
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+   Massively by HTML5 UP
+   html5up.net | @ajlkn
+    Jekyll integration by somiibo.com
+   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+   -->
 <html>
-	<head>
-    {% include head.html %}
-
-
-	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro 
-					<div id="intro">
-            <h1>{{site.title}}</h1>
-						<h2>Minumum Viable Developer</h2>
-						<p>Learn coding in your real world environment.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>  -->
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
+   <head>
+      {% include head.html %}
+   </head>
+   <body class="is-loading">
+      <!-- Wrapper -->
+      <div id="wrapper" class="fade-in">
+         <!-- Intro 
+            <div id="intro">
+                   <h1>{{site.title}}</h1>
+            	<h2>Minumum Viable Developer</h2>
+            	<p>Learn coding in your real world environment.</p>
+            	<ul class="actions">
+            		<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+            	</ul>
+            </div>  -->
+         <!-- Header -->
+         <header id="header">
+            <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+         </header>
+         <!-- Nav -->
+         <nav id="nav">
             {% include nav.html %}
-
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Automate your work & learn to code</h2>
-									<p>A three week, part time program for new software developers.</p>
-									<p>Learn by doing. Deliver your first value within three weeks.</p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "images/mikell_pairing.jpg" | absolute_url }}" alt="https://www.flickr.com/photos/wocintechchat/25677176162/" /></a>
-
-^
-
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
+         </nav>
+         <!-- Main -->
+         <div id="main">
+            <!-- Featured Post -->
+            <article class="post featured">
+               <header class="major">
+                  <h2>Automate your work & learn to code</h2>
+                  <p>A three week, part time program for new software developers.</p>
+                  <p>Learn by doing. Deliver your first value within three weeks.</p>
+			   </header>
+			</article>
+               <!-- <a href="#" class="image main"><img src="{{ "images/mikell_pairing.jpg" | absolute_url }}" alt="https://www.flickr.com/photos/wocintechchat/25677176162/"/></a> -->
+               <!-- Posts -->
+               <section class="posts">
+                  {% assign sorted_pages = site.pages | sort:"front_page_order" %}				
+                  {% for page in sorted_pages %}
+                  {% if page.front_page %}
                   <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
-
-  								</article>
+                     <header>
+                        <h2><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h2>
+                     </header>
+                     <a href="{{ page.url | absolute_url }}" class="image fit"><img src="{{ page.image | absolute_url }}" alt="" /></a>
+                  </article>
                   {% endif %}
-                {% endfor %}
-
-							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
+                  {% endfor %}
+               </section>
+            <!-- Footer -->
+            <footer>
+               <ul class="actions">
                   <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
-	</body>
+               </ul>
+            </footer>
+         </div>
+         <!-- Footer -->
+         {% include foot.html %}
+      </div>
+      <!-- Scripts -->
+      {% include scripts-main.html %}
+      {% include tracking.html %}
+   </body>
 </html>
