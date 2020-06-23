@@ -1,7 +1,7 @@
 ---
 layout: page
 front_page: True
-front_page_order: 3
+front_page_order: 4
 title: How Skill Sprints Work
 image: "/images/skill-sprint-method.png"
 description: The Technology Adoption Solution
