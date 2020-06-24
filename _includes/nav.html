@@ -2,8 +2,9 @@
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
   <li class="{% if page.url contains '/individual/' %} active {% endif %}"><a href="{{ "/individual/" | absolute_url }}">For Individuals</a></li>
   <li class="{% if page.url contains '/organisation/' %} active {% endif %}"><a href="{{ "/organisation/" | absolute_url }}">For Organisations</a></li>
-  <li class="{% if page.url contains '/organisation/' %} active {% endif %}"><a href="{{ "/skill-sprint/" | absolute_url }}">Skill Sprint</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/for-devops/" | absolute_url }}">DevOps Skill Sprints</a></li>
+  <li class="{% if page.url contains '/skill-sprint/' %} active {% endif %}"><a href="{{ "/skill-sprint/" | absolute_url }}">Skill Sprint</a></li>
+  <li class="{% if page.url contains '/for-devops/' %} active {% endif %}"><a href="{{ "/for-devops/" | absolute_url }}">DevOps Skill Sprints</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
 </ul>
 <!--
 <ul class="icons">

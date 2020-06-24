@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Camping.info DevOps Skill Sprint"
+title:  "Camping.info - DevOps Skill Sprint - Case Study"
 date:   2020-02-01
-excerpt: ""
+excerpt: "From an AWS disaster to GKE dream in a week."
 image: "/images/camping-info.png"
 ---
 
@@ -38,13 +38,3 @@ Finke and his team are thrilled to be moving forward with their beta launch with
 
 
 camping.info is poised for success in creating a truly user-centric platform for camping enthusiasts. With help from its partnership with Cloudwürdig, the company feels better equipped to tackle its ambitious year ahead.
-
-
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
