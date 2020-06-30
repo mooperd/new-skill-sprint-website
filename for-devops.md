@@ -26,7 +26,7 @@ Skill Sprints have been delivered to many development teams; helping them to tak
     <span class="image right"><img src="{{ "/images/fti-group.png" | absolute_url }}" alt="" /></span>
     <p>The week-long experience was described as intense by the team, and it was certainly a challenge, with four different applications to be changed and migrated at the same time. Leonardo says: “It was totally different from any training I had done before. Right from the beginning it was a hands-on approach - we just had to get on with the job and do it.”</p>
     <ul class="actions">
-		<li><a href="/blog/camping-info/" class="button special">Read More</a></li>
+		<li><a href="/blog/fti-group/" class="button special">Read More</a></li>
     </ul>
 </div>
 <hr />

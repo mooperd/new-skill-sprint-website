@@ -11,11 +11,11 @@ sitemap:
     changefreq: weekly
 ---
 
-## Python Skill Sprints for Your organisation
+# Python Skill Sprints for Your organisation
 
 <span class="image right"><img src="{{ "/images/organisation.png" | absolute_url }}" alt="http://www.chm.bris.ac.uk/org/aggarwal/" /></span>
 
-Whilst ubiquitous in modern business, spreadsheets suffer from some fatal flaws which make them inappropriate for many of the tasks that we use them for. Spreadsheets become very error prone if they exist for any length of time and re-running calculations on complex sheets can take a long time to complete - frustrating the efforts of your staff and reducing insight. There are also hard limits on the size of spreadsheets.
+Whilst ubiquitous in modern business, spreadsheets suffer from some fatal flaws which make them inappropriate for many of the tasks that we use them for. Spreadsheets become very error-prone if they exist for any length of time and re-running calculations on complex sheets can take a long time to complete - frustrating the efforts of your staff and reducing insight. There are also hard limits on the size of spreadsheets.
 
 Already the world’s most popular programming language; the popularity of Python is still growing much faster than any other. With an excellent set of add on modules, python is extremely versatile and easy to use. It’s free to use with an open-source licence. Python can process virtually unlimited amounts of data efficiently and accurately. Using Python is much safer and less error-prone than Excel as it allows us to separate our data from our logic and gives us amazing advancements in the way people collaborate.
 

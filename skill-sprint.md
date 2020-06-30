@@ -15,7 +15,7 @@ sitemap:
 
 <span class="image right"><img src="{{ "/images/gears.png" | absolute_url }}" alt="" /></span>
 
-A Skill Sprint is an intense real-world learning experience for teams looking to embrace new technologies. The discipline is based on research by a number of academics into the way people learn. 
+A Skill Sprint is an intense real-world learning experience for teams looking to embrace new technologies. During a Skill Sprint the particiapnts learn new skills by directly delivering something to their organisation. The discipline is based on research by a number of academics into the way people learn. 
 
 Skill Sprints can be used as a way of introducing people to tech - providing them a way of delivering their "first value" to their organisation whilst learning in their real environment. Skill Sprints can also help established development teams effectivly adopt new techniques or technologies such as DevOps or Kubernetes.
 
@@ -23,7 +23,7 @@ At its heart is the concept that people learn most effectively by “doing” an
 
 <div class="box">
 <h2>Step Zero - The Skill Sprint Leader</h2>
-The Leader of a Skill Sprint should be a subject expert in the technology that will be adopted. They should have many deployments under their belt and have a deep understanding of the caveats and special cases. Their job is to lead the process and ensure that the team is enabled at every moment. They should ideally have some teaching experiance - be patient, creative with great communication and collaboration skills.
+The Leader of a Skill Sprint should be a subject expert in the technology that will be adopted. They should have many deployments under their belt and have a deep understanding of the caveats and special cases. Their job is to lead the process and ensure that the team is enabled at every moment. They should ideally have some teaching experience - be patient, creative with great communication and collaboration skills.
 </div>
 
 <div class="box">
@@ -43,7 +43,7 @@ New technologies have to be integrated with existing process and technology. The
 
 <div class="box">
 <h2>Step Four - JFDI</h2>
-Removed from interuptions - email, slack and other nuisances the team delivers the Minimum Viable Product. The Leader guides the process - bringing the team back on-course where necessary to ensure that the team stays focussed and on goal. The Captain will have to maintain the focus of the Skill Sprint - moderating discussion and maintaining discipline.
+Removed from interuptions - email, slack and other nuisances the team delivers the Minimum Viable Product. The Leader guides the process - bringing the team back on-course where necessary to ensure that the team stays focussed and on goal. The Leader will have to maintain the focus of the Skill Sprint - moderating discussion and maintaining discipline.
 </div>
 
-By the end of the process the team will have delivered a working product in the new technology and will have the skills and ownership required to push things forward. Ideally the Captain will take the team 90% of the way within the Skill Sprint - leaving them in a position where things can be completed under their own steam. This can be quite difficult for a Captain as they will be unable to share in the glory but this ensures the team enjoys the full liminality of the experience. They themselves will be transformed.
+By the end of the process the team will have delivered a working product in the new technology and will have the skills and ownership required to push things forward. Ideally the Leader will take the team 90% of the way within the Skill Sprint - leaving them in a position where things can be completed under their own steam.

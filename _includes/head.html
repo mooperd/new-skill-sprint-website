@@ -2,6 +2,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
 <title>{{ page.title }}</title>
+
+<meta property="og:title" content="{{ page.title }}"" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:url" content="https://skill-sprint.com{{ page.url }}" />
+<meta property="og:image" content="https://skill-sprint.com{{ page.image }}"/>
+
 <meta name="description" content="{{ page.description }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icon/apple-touch-icon.png" | absolute_url }}">
@@ -12,6 +19,15 @@
 <link rel="shortcut icon" href="{{ "/assets/icon/favicon.ico" | absolute_url }}">
 <meta name="msapplication-config" content="{{ "/assets/icon/browserconfig.xml" | absolute_url }}">
 <meta name="theme-color" content="#ffffff">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62051368-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-62051368-2');
+</script>
 
 <!-- CSS -->
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}" />
