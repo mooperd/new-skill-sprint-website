@@ -3,6 +3,7 @@ layout: post
 title:  "Camping.info - DevOps Skill Sprint - Case Study"
 date:   2020-02-01
 excerpt: "From an AWS disaster to GKE dream in a week."
+description: "From an AWS disaster to GKE dream in a week."
 image: "/images/camping-info.png"
 ---
 

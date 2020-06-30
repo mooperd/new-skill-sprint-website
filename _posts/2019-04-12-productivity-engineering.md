@@ -3,6 +3,7 @@ layout: post
 title:  "Why Developers Should Embrace Productivity Engineering"
 date:   2020-1-15
 excerpt: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
+description: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
 image: "/images/learning-child.png"
 ---
 
