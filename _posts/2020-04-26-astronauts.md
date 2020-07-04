@@ -5,6 +5,7 @@ date:   2020-06-24
 excerpt: "It can be easier to teach a business domain expert to code than to teach a developer to grasp the business"
 description: "It can be easier to teach a business domain expert to code than to teach a developer to grasp the business"
 image: "/images/armageddon.jpg"
+show: true
 ---
 
 <span class="image right"><img src="{{ "/images/armageddon-still.jpg" | absolute_url }}" alt="" /></span>

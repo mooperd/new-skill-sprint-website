@@ -5,6 +5,7 @@ date:   2020-1-15
 excerpt: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
 description: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
 image: "/images/learning-child.png"
+show: true
 ---
 
 It’s come time to face the facts: we’re living in a post-DevOps engineer world. As the software industry continues to evolve at a rapid pace, so too do the tools and services available to developers. Ultimately, these changes have created a shift in the ideal structure of a development team and the way its members consume technology.

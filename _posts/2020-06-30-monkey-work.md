@@ -5,6 +5,7 @@ date:   2020-06-30
 excerpt: "Our only hope is to automate it first and become the master of these machines."
 description: "Our only hope is to automate it first and become the master of these machines."
 image: "/images/the-machines.jpg"
+show: true
 ---
 
 A few years ago, I discovered that my high paying tech job had been automated away by new technology from Google. A victim of their never-ending quest to make their computers more accessible to software developers - I was out on my ear.

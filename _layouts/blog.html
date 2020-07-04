@@ -38,6 +38,7 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
+						{% if post.show %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
 							<article>
 								<header>
@@ -52,6 +53,7 @@
 							</article>
 							{% if mod3 == 0 %}
 							{% endif %}
+						{% endif %}
 						{% endfor %}
 
 					</section>
