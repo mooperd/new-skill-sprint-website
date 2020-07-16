@@ -39,12 +39,13 @@ defaults:
 permalink:          /blog/:title/
 markdown:           kramdown
 highlighter:        rouge
+syntax_highlighter: coderay
 kramdown:
   auto_ids:         true
   footnote_nr:      1
   entity_output:    as_char
   toc_levels:       1..6
-  enable_coderay:   false
+  # enable_coderay:   true
 mathjax:            true
 sass:
   sass_dir:         _sass

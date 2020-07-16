@@ -201,10 +201,10 @@
 		}
 
 		code {
-			background: _palette($p, border-bg);
-			border-color: _palette($p, border);
+			background: _palette($p, code-border-bg);
+			border-color: _palette($p, code-border);
 		}
-
+		
 		hr {
 			border-bottom-color: _palette($p, border);
 		}

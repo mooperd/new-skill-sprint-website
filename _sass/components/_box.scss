@@ -11,6 +11,7 @@
 		border: solid 2px;
 		margin-bottom: _size(element-margin);
 		padding: 1.5rem;
+		overflow: auto;
 
 		> :last-child,
 		> :last-child > :last-child,

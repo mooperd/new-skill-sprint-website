@@ -11,18 +11,50 @@ sitemap:
     changefreq: weekly
 ---
 
-# Python Skill Sprints - Standard process
+``` python
+def addSpecies(session, species_input):
+    genus = Genus()
+    # Try and get the Genus from the database. If error (Except) add to the database.
+    try: 
+        genus = session.query(Genus).filter(Genus.scientific_name == species_input["genus"]["scientific_name"]).one()
+    except:
+        genus = Genus()
+        genus.scientific_name = species_input["genus"]["scientific_name"]
+        session.add(genus)
+    species = Species()
+    # Add attributes
+    species.scientific_name = species_input["scientific_name"]
+    species.common_name = species_input["common_name"]
+    # add the genus (parent) to the species (child)
+    species.genus = genus
+    session.add(species)
+    session.commit()
+```
 
-<span class="image left"><img src="{{ "/images/pairing.png" | absolute_url }}" alt="https://www.flickr.com/photos/wocintechchat/25677176162/" /></span>
 
-Learning to code is extremely daunting for the uninitiated. Getting over the initial hump is nearly impossible for those that have busy work and life schedules.
+# Python Skill Sprint - Our Standard process
 
-For most of us, the most effective way of learning something is by doing. Learning by doing is how established developers learn new skills. Code bootcamps have proven to be effective by putting you in a simulated development environment and teaching you how to work with other people towards a common goal.
+Before starting the Skill Sprint participants will take part in a 45 min test to check their aptitude. 
 
-The problem with simulated environments is that it's difficult to apply what you have learnt back into your work context. It is unlikely that the patterns you were taught in the bootcamp could be applied in upgrading your processes at work.
+The Skill Sprint will take approximately three weeks.
 
-To solve this problem we introduce the Skill Sprint. The goal of the skill sprint is to deliver something of value to your colleagues and employer using Python. This could be something as simple as exporting and transforming some CSV data but we will aim for the highest impact within our three-week program. Every organisation has a lot of low hanging fruit which allows a quick win and an immediate return on investment.
+### Week 1. - Low touch guidance.  Discover blockers.
+    The participants are encouraged to feel their way around a local development environment. 
+    By the end of this week they should be able to install vscode, python and github desktop. 
+    By the end of this week they should have a familiarity with branches and PRs.
+    This week gives us the opportunity to discover organisational blockers and gauge the motivation of the participants. Testing that they have the time and energy to be properly involved.
 
-The Skill Sprint takes two people from an organisation, delivers them some preparatory training then jumps right into delivering. We - the Skill Sprint Leaders - are not allowed to touch keyboards but we are close behind - ensuring our participants are on the right path. Once the program is delivered we are available to you to support and guide the next steps.
 
-Participating requires 4 hours per day time commitment so you will need to be released from the bulk of your normal work. This investment by your organisation will quickly pay dividends as your new automation skills release you and your colleagues for new and interesting work.
+### Week 2. - 2 hours per day face to face and 2 hours of homework which should be completed by the pair together.
+    Programming primitives - Sample syllabus 
+        Day one - Data Structures. Lists of dicts, iteration and boolean statements.
+        Day two - CSV files. Handling larger volumes of data.
+        Day three - Basic flask APIs. Functions. Methods. 
+        Day four - Pandas - importing and exporting data. groupby(). apply()
+        Day five - general practice. Open questions.
+
+
+### Week 3.  - 2 hours per day face to face and 2 hours of homework which should be completed together.
+    Delivery
+        The participants will be guided through to delivery of their first value to the organisation.
+        This delivery should have a small but noticeable impact on the organisation - ideally changing the job of at least one employee not participating in the Skill Sprint
