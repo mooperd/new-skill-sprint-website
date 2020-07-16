@@ -36,7 +36,7 @@ def addSpecies(session, species_input):
 
 Before starting the Skill Sprint participants will take part in a 45 min test to check their aptitude. 
 
-The Skill Sprint will take approximately three weeks.
+The Skill Sprint will take approximately two weeks.
 
 ### Week 1. - Low touch guidance.  Discover blockers.
     The participants are encouraged to feel their way around a local development environment. 

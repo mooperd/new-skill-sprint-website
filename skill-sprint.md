@@ -33,7 +33,7 @@ The first step in adopting any technology should be to define the first business
 
 <div class="box">
 <h2>Step Two - Assemble the Team</h2>
-Up to two to three permanent members of staff should be committed into the Skill Sprint. They will need to be  excused from their work for the duration of the sprint. These members of staff will do all of the work required to complete the Minimum Viable Product within the sprint. If the task is not accomplished by the end of the sprint they should be able to continue on until the delivery is complete. Throughout the process the Leader is not permitted to touch a keyboard.
+Two or three permanent members of staff should be committed into the Skill Sprint. They will need to be  excused from their work for the duration of the sprint. These members of staff will do all of the work required to complete the Minimum Viable Product within the sprint. If the task is not accomplished by the end of the sprint they should be able to continue on until the delivery is complete. Throughout the process the Leader is not permitted to touch a keyboard.
 </div>
 
 <div class="box">

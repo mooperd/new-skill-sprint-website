@@ -21,7 +21,7 @@ For most of us, the most effective way of learning something is by doing. Learni
 
 The problem with simulated environments is that it's difficult to apply what you have learnt back into your work context. It is unlikely that the patterns you were taught in the bootcamp could be applied in upgrading your processes at work.
 
-To solve this problem we introduce the Skill Sprint. The goal of the skill sprint is to deliver something of value to your colleagues and employer using Python. This could be something as simple as exporting and transforming some CSV data but we will aim for the highest impact within our three-week program. Every organisation has a lot of low hanging fruit which allows a quick win and an immediate return on investment.
+To solve this problem we introduce the Skill Sprint. The goal of the skill sprint is to deliver something of value to your colleagues and employer using Python. This could be something as simple as exporting and transforming some CSV data but we will aim for the highest impact within our two week program. Every organisation has a lot of low hanging fruit which allows a quick win and an immediate return on investment.
 
 The Skill Sprint takes two people from an organisation, delivers them some preparatory training then jumps right into delivering. We - the Skill Sprint Leaders - are not allowed to touch keyboards but we are close behind - ensuring our participants are on the right path. Once the program is delivered we are available to you to support and guide the next steps.
 
