@@ -33,3 +33,7 @@ Specifically, I have been teaching people with no coding experience to use the p
 On the other hand, you don’t need to be a genius. If you can understand the CRUD (Create, Read, Update, Delete) principle, you will be able to pick up the basics of coding. The format I’m using is almost identical to the developer version of the Skill Sprint, but with more homework. It’s not easy and not for the faint-hearted. I tend to drive people quite hard and it’s a significant time investment throughout a week.  But the results so far have been outstanding. Something that would have taken hours of error-prone work bringing data together from different sources onto a spreadsheet can be solved with five lines of Python. And the joy of it is that the next alteration will require another five lines and no further training.
 
 You probably don’t consider yourself to be an astronaut, nor an oil-driller, but if you’re a specialist in your field, and the concepts of data and applications don’t scare you, a language like Python doesn’t require a three-year degree course to master. Nor even three months in a classroom. Learn on the job – and you’ll have a new skill by next Tuesday.
+
+<ul class="actions fit">
+	<li><a href="/assets/docs/Python_Skill_Sprint_brochure.pdf" download class="button fit">Download PDF Brochure</a></li>
+</ul>

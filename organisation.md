@@ -29,3 +29,6 @@ Skill Sprints are designed to provide a concrete transformation of a business pr
 
 Skill Sprints ensure that introducing a new technology happens in a structured and predictable way with clear responsibilities at every stage. Skill Sprints are discrete operations which are designed to ensure that stakeholders are equipped to make real decisions.
 
+<ul class="actions fit">
+	<li><a href="/assets/docs/Python_Skill_Sprint_brochure.pdf" download class="button fit">Download PDF Brochure</a></li>
+</ul>

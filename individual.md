@@ -26,3 +26,7 @@ To solve this problem we introduce the Skill Sprint. The goal of the skill sprin
 The Skill Sprint takes two people from an organisation, delivers them some preparatory training then jumps right into delivering. We - the Skill Sprint Leaders - are not allowed to touch keyboards but we are close behind - ensuring our participants are on the right path. Once the program is delivered we are available to you to support and guide the next steps.
 
 Participating requires 4 hours per day time commitment so you will need to be released from the bulk of your normal work. This investment by your organisation will quickly pay dividends as your new automation skills release you and your colleagues for new and interesting work.
+
+<ul class="actions fit">
+	<li><a href="/assets/docs/Python_Skill_Sprint_brochure.pdf" download class="button fit">Download PDF Brochure</a></li>
+</ul>
