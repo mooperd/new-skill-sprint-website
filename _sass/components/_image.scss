@@ -38,6 +38,12 @@
 			top: 0.75rem;
 		}
 
+		&.banner {
+			display: block;
+			width: 100%;
+			padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+		}
+
 		&.fit {
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;

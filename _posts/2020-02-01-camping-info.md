@@ -6,6 +6,7 @@ excerpt: "From an AWS disaster to GKE dream in a week."
 description: "From an AWS disaster to GKE dream in a week."
 image: "/images/camping-info.png"
 show: true
+sitemap: true
 ---
 
 ## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week

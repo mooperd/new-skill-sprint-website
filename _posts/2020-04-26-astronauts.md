@@ -4,8 +4,9 @@ title:  "Training astronauts, not drillers"
 date:   2020-06-24
 excerpt: "It can be easier to teach a business domain expert to code than to teach a developer to grasp the business"
 description: "It can be easier to teach a business domain expert to code than to teach a developer to grasp the business"
-image: "/images/armageddon.jpg"
+image: "/images/armageddon.png"
 show: true
+sitemap: true
 ---
 
 <span class="image right"><img src="{{ "/images/armageddon-still.jpg" | absolute_url }}" alt="" /></span>
@@ -34,6 +35,5 @@ On the other hand, you don’t need to be a genius. If you can understand the CR
 
 You probably don’t consider yourself to be an astronaut, nor an oil-driller, but if you’re a specialist in your field, and the concepts of data and applications don’t scare you, a language like Python doesn’t require a three-year degree course to master. Nor even three months in a classroom. Learn on the job – and you’ll have a new skill by next Tuesday.
 
-<ul class="actions fit">
-	<li><a href="/assets/docs/Python_Skill_Sprint_brochure.pdf" download class="button fit">Download PDF Brochure</a></li>
-</ul>
+
+<span class="image fit"><a href="https://www.eventbrite.com/e/stealing-the-fire-of-the-gods-tickets-115039819196" target="_blank" ><img src="{{ "/images/webinar_banner.svg" | absolute_url }}" alt="" /></a></span>

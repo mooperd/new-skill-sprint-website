@@ -15,7 +15,7 @@
 		z-index: 2;
 
 		> * {
-			@include padding((_size(padding) * 2), (_size(padding) * 2));
+			@include padding((_size(padding)), (_size(padding)));
 			border-top: solid 2px _palette(border);
 			margin: 0;
 

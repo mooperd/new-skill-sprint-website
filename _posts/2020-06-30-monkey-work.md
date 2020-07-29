@@ -30,7 +30,9 @@ Employers have known for some time that “training” is something of a bottoml
 
 You can guarantee that the machines are coming for your job sometime in the future. Perhaps you have a lucky niche but if your job involves a lot of manual manipulation of spreadsheets, copying, pasting or other similar tasks then you can be sure that there is a team of developers somewhere working on the problem of automating your job. Our only hope is to automate it first and become the master of these machines.
 
+<span class="image fit"><a href="https://www.eventbrite.com/e/stealing-the-fire-of-the-gods-tickets-115039819196" target="_blank" ><img src="{{ "/images/webinar_banner.svg" | absolute_url }}" alt="" /></a></span>
+
 <ul class="actions fit">
-	<li><a href="/assets/docs/Python_Skill_Sprint_brochure.pdf" download class="button fit">Download PDF Brochure</a></li>
+	<li><a href="/assets/docs/Python_Skill_Sprint_brochure.pdf" download class="button fit">Download PDF Brochure 🧠</a></li>
 </ul>
 

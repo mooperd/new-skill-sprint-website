@@ -6,6 +6,7 @@ excerpt: "It’s come time to face the facts: we’re living in a post-DevOps en
 description: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
 image: "/images/learning-child.png"
 show: true
+sitemap: true
 ---
 
 It’s come time to face the facts: we’re living in a post-DevOps engineer world. As the software industry continues to evolve at a rapid pace, so too do the tools and services available to developers. Ultimately, these changes have created a shift in the ideal structure of a development team and the way its members consume technology.
@@ -40,4 +41,4 @@ The latter begins with strategic developer training – the kind that gets devel
 
 Skill Sprints embody the principle of Productivity engineers as they are build to get people learning by doing. They build solutions with technology under our guidance. Because we have to make things simple and understandable for Learners we instill best practices of Productivity Engineering throughout the process. The result is powerful infrastructure, self-enablement and a skillset that can be passed on from developer to developer. These updates become entrenched in the culture of entire development teams, which then translate to direct business value.
 
-
+<span class="image fit"><a href="https://www.eventbrite.com/e/stealing-the-fire-of-the-gods-tickets-115039819196" target="_blank" ><img src="{{ "/images/webinar_banner.svg" | absolute_url }}" alt="" /></a></span>
